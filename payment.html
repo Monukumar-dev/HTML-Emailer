@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+    <title>Payment</title>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+    </style>
+  </head>
+  <body style="margin: 0; padding: 0; border: none; font-family: 'Montserrat'">
+    <table border='0' cellpadding='0' cellspacing='0' width='100%' 
+          style="max-width: 800px;
+                background: transparent;
+                background-image: url(https://storage.googleapis.com/qfix-app-data/images/PaymentSuccessfulBg.jpg);
+                margin: auto;
+                background-size: cover;
+                background-position: center bottom 30px;"
+                
+      >
+      <tr>
+        <td style="background: transparent;height: 90px;text-align: center;vertical-align: middle;">
+                <div style="color: #8D92A4;font-size: 12px;text-align: center;margin: 0 auto;line-height: 1.5;vertical-align:middle;display:inline-block;">Powered by</div>
+            <img src="https://storage.googleapis.com/qfix-app-data/images/QfixByPinelabsLogo.jpeg" style="margin-left: 5px;vertical-align: middle;max-height: 40px;">
+        </td>
+      </tr>
+      <tr>
+        <td style="background: transparent;text-align: center;vertical-align: top;"> 
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
+            style="max-width: 450px;
+                   background: transparent;
+                   top: -100px;
+                   bottom: -120px;
+                   margin: auto;
+                   border-radius: 4px 4px 0 0;
+                   overflow: hidden;
+                   position: relative;"
+                   >
+            <tr>
+                <td style='background: #F58233;height: 70px;'>
+                      <h3 style="font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 25px;
+                            text-align: center;
+                            letter-spacing: 0.005em;
+                            color: #FFFFFF;">Payment for demo institute</h3>
+                </td>
+            </tr>
+            <tr>
+              <td style='background: #fff;padding-bottom: 30px;border-bottom: 1px solid #E1E1E1;'>
+                 <h3 style="font-family: 'Roboto';
+                      font-style: normal;
+                      margin: 20px 0 0 0;
+                      font-weight: 500;
+                      font-size: 24px;
+                      line-height: 30px;                
+                      text-align: center;
+                      letter-spacing: 0.005em;
+                      color: #2B2B2B;">&#8377;{{amount}}</h3>
+                      
+                  
+                      <p style="font-family: 'Inter', sans-serif;
+                      font-style: normal;
+                      font-weight: 700;
+                      text-align: center;
+                      font-size: 16px;
+                      margin: 0;
+                      line-height: 21px;
+                      letter-spacing: 0.005em;
+                      color: #272F74;
+                      ">
+                        Paid Successfully
+                        <img src="https://storage.googleapis.com/qfix-app-data/images/check.jpeg" alt="" style="margin-left: 4px;margin-bottom: 2px;vertical-align: middle;max-height: 20px;">
+                      </p>
+                    
+              </td>
+            </tr>
+            <tr>
+              <td style='background: #fff;'>
+                <table align='center' border='0' cellpadding='0' cellspacing='0' style="width: 75%;margin: 10px auto 20px auto;">
+                  <tr>
+                    <td style="text-align: left;">
+                        <p style="font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 255%;                     
+                        letter-spacing: 0.005em;
+                        color: #828282;
+                        margin: 0;">Reference Number :</p>
+                    </td> 
+                    <td style="text-align: right;">
+                        <p style="font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 255%;
+                        letter-spacing: 0.005em;
+                        color: #828282;
+                        margin: 0;">{{qfix_ref_number}}</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: left;">
+                        <p style="font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 255%;                     
+                        letter-spacing: 0.005em;
+                        color: #828282;
+                        margin: 0;">Paid On :</p>
+                    </td>
+                    <td style="text-align: right;">
+                        <p style="font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 255%;
+                        letter-spacing: 0.005em;
+                        color: #828282;
+                        margin: 0;">{{paidDate}}</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: left;">
+                        <p style="font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 255%;                     
+                        letter-spacing: 0.005em;
+                        color: #828282;
+                        margin: 0;">Method :</p>
+                    </td>
+                    <td style="text-align: right;">
+                        <p style="font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 255%;
+                        letter-spacing: 0.005em;
+                        color: #828282;
+                        margin: 0;">{{paymentMode}}</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="text-align: left;">
+                        <p style="font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 255%;                     
+                        letter-spacing: 0.005em;
+                        color: #828282;
+                        margin: 0;">Mobile Number : </p>
+                    </td>
+                    <td style="text-align: right;">
+                        <p style="font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 15px;
+                        line-height: 255%;
+                        letter-spacing: 0.005em;
+                        color: #828282;
+                        margin: 0;">{{mobileNumber}}</p>
+                    </td>
+                  </tr>
+                </table>
+
+              </td>
+            </tr>
+            <tr>
+              <td style="background: #F9F9F9;height: 80px;border-bottom: 7px solid #F6C143;">
+                  <p style="font-family: 'Roboto';
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 13px;
+                  line-height: 176%;
+                  text-align: center;
+                  letter-spacing: 0.005em;
+                  color: #444E59;">For any product or service related queries,<br>
+                    please contact <a href="mailto:merchant.supoort@qfixinfo.com." style="color: #2E7BE6;">merchant.supoort@qfixinfo.com.</a>
+                  </p>
+              </td>
+            </tr>
+            </table> <!-- end inner table 600px -->
+        </td>
+      </tr>
+      <tr>
+        <td style="background: #FFFFFF;height: 150px;">
+              
+        </td>
+      </tr>
+
+
+     </table> <!-- end main table -->
+  </body>
+</html>
