@@ -1,0 +1,143 @@
+/*-----------------
+ Global variable css
+-----------------------*/
+:root {
+	--gradient:  -webkit-linear-gradient(150deg, #F89922 14.14%, #F79326 25.66%, #F58233 42.21%, #F26548 61.65%, #EE3E64 82.53%, #ED3769 85.4%);
+    --primary-clr: #F98500;
+    --text-clr: #2A2A2A;
+    --accent-clr: rgba(0, 0, 0, 0.5);
+    --lightgrey-clr: #ededed;
+    --ff-heading: 'Roboto', sans-serif;
+    --ff-para: 'Inter', sans-serif;
+}
+/*-----------------
+ header
+-----------------------*/
+.accent-clr {color: var(--accent-clr);}
+.text-clr {color: var(--text-clr);}
+.btn-primary {
+    color: #fff;
+    background-color: var(--primary-clr);
+    border-color: var(--primary-clr);
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: var(--primary-clr);
+    border-color: var(--primary-clr);
+    opacity: 0.9;
+}
+ body {
+    background: var(--gradient);
+
+ }
+header {
+    height: 12rem;
+    padding: 2.5rem 0;
+    background: #fff;
+    text-align: center;
+}
+footer {
+    height: 12rem;
+    padding: 5rem 0 4rem 0;
+    background: #fff;
+}
+footer .footerInfo {
+    max-width: 950px;
+    margin: auto;
+}
+footer .footerInfo h4 {
+    font-family: var(--ff-heading);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8;
+    line-height: 176%;
+    letter-spacing: 0.005em;
+    color: #2A2A2A;
+}
+.WelcomeBox.card {
+    max-width: 950px;
+    margin: auto;
+    margin-top: -4rem;
+    margin-bottom: -3rem;
+    padding: 3rem 5rem;
+    background: #fff;
+    border-top: 7px solid var(--primary-clr);
+    border-bottom: 7px solid var(--primary-clr);
+    box-shadow: 7px 8px 12px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+}
+.WelcomeTitle h4 {
+    font-family: var(--ff-heading);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    letter-spacing: 0.01em;
+    color: var(--text-clr);
+}
+.WelcomeTitle h1 {
+    font-family: var(--ff-heading);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 75%;
+    letter-spacing: 0.005em;
+    color: var(--primary-clr);
+}
+.infoPara {
+    font-family: var(--ff-para);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 160%;
+    letter-spacing: 0.005em;
+    color: var(--accent-clr);
+}
+.InstituteForm label {
+    font-family: var(--ff-para);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 168%;
+    letter-spacing: 0.005em;
+    color: var(--text-clr);
+}
+.formHeading {
+    font-family: var(--ff-heading);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+    color: var(--text-clr);
+}
+/* Upload file */
+.drop-zone__input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    height: 60px;
+    margin: 8px 0;
+    border: 1px dashed #676767;
+    border-radius: 6px;
+}
+.drop-zone__input [type="file"] {
+    height: 0;
+    overflow: hidden;
+    width: 0;
+    position: absolute;
+}
+
+.drop-zone__input img {
+    margin-right: 10px;
+}
+.drop-zone__input p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #DCDCDC;
+}

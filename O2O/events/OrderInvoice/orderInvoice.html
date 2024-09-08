@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Invoice template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+		<style>
+			.headerTable tr td {
+                color:  #76798B;    
+                font-family: 'Inter', sans-serif;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                vertical-align: top;
+            }
+            .headerTable tr td:first-child {
+                width: 40%;
+                color: #252525;
+                font-weight: 600;
+            }
+            .productInfoTable {
+                border: 1px solid #D2D2D2;
+            }
+            .productInfoTable tr th {
+                color: #252525;
+                text-align: left;
+                font-family: 'Inter', sans-serif;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                background-color:#F1F1F1;
+                padding:10px 5px 10px 5px;
+                border-right: 1px solid #D2D2D2;
+            }
+            .productInfoTable tr th:last-child {
+                border-right: none;
+                width: 100px;
+            }
+            .productInfoTable tr td {
+                color: #252525;
+                text-align: left;
+                font-family: 'Inter', sans-serif;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                padding:10px 5px 10px 5px;
+                border-right: 1px solid #D2D2D2;
+            }
+            .productInfoTable tr td:last-child {
+                border-right: none;
+            }
+		</style>
+	</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" max-width="100%">
+    <tbody>
+      <tr>
+        <td align="center" valign="top">
+          <table border="0" cellpadding="0" cellspacing="0" width="600" style="box-shadow: 0 0 5px 0 #dad7d7;">
+            <tbody>
+              <tr>
+                <td align="center" valign="top" style="background-color: #F1F1F1;padding: 30px;">
+                  <table cellpadding="0" cellspacing="0" width="100%" style="border-radius:3px 3px 0 0!important;color:#000000;border-bottom:0;font-weight:bold;line-height:100%;vertical-align:middle;font-family: 'Inter', sans-serif;margin-bottom: 14px;">
+                    <tbody>
+                      <tr>
+                        <td style="width: 50%;">
+                            <h3 style="color: #000;font-family: 'Inter', sans-serif;font-size: 18px;font-style: normal;font-weight: 600;line-height: normal;margin: 0;">Reciept</h3>
+                        </td>
+                        <td style="width: 50%;">
+                            <a href="#" rel="home" style="color:white;font-weight:normal;text-decoration:none" target="_blank">
+                              <img src="EventLogo.png" alt="" style="height: 36px;padding: 4px 10px;border-right: 1px solid #B9B9B9;">
+                              <img src="qfixbyPL.png" alt="" style="height: 36px;padding: 4px 0px;">
+                            </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table cellpadding="0" cellspacing="0" style="width:100%!important;max-width:100%!important;overflow:hidden!important;box-sizing:border-box;height:auto!important" align="center">
+                    <tbody>
+                      <tr>
+                        <td width="50%" valign="top">
+                          <table class="headerTable" cellpadding="0" cellspacing="0" width="100%" align="center">
+                            <tbody>
+                              <tr>
+                                <td>Receipt No</td>
+                                <td>: ABIN22290982973</td>
+                              </tr>
+                              <tr>
+                                <td>Date</td>
+                                <td>: Events company</td>
+                              </tr>
+                              <tr>
+                                <td>Place</td>
+                                <td>: Mumbai</td>
+                              </tr>
+                              <tr>
+                                <td>Booking ID</td>
+                                <td>: abc123</td>
+                              </tr>
+                              <tr>
+                                <td>Customer Name</td>
+                                <td>: Name</td>
+                              </tr>
+                              <tr>
+                                <td>Email</td>
+                                <td>: abc@email.com</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                        <td width="50%" valign="top">
+                          <table class="headerTable" cellpadding="0" cellspacing="0" width="100%" align="center">
+                            <tbody>
+                              <tr>
+                                <td>Invoice issued by</td>
+                                <td>: Events company</td>
+                              </tr>
+                              <tr>
+                                <td>GSTIN</td>
+                                <td>: UIN123456789098</td>
+                              </tr>
+                              <tr>
+                                <td>PAN</td>
+                                <td>: ASRTA1234A</td>
+                              </tr>
+                              <tr>
+                                <td>State Code</td>
+                                <td>: Maharashtra</td>
+                              </tr>
+                              <tr>
+                                <td>Address</td>
+                                <td>: 123, Arcade, SV road, Malad west</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td> <!-- end header -->
+              </tr>
+      
+              <tr>
+                <td style="background-color:#fff;padding: 14px 30px;">
+                  <table class="productInfoTable" cellpadding="0" cellspacing="0" width="100%" align="center">
+                    <tbody>
+                      <tr>
+                        <th valign="middle">S.No.</th>
+                        <th valign="middle">Event Name</th>
+                        <th valign="middle">HSN Code</th>
+                        <th valign="middle">Qty</th>
+                        <th valign="middle">Price</th>
+                        <th valign="middle">Discount</th>
+                        <th valign="middle">Taxable Value</th>
+                      </tr>
+                      <tr>
+                        <td valign="middle">1</td>
+                        <td valign="middle">Musical Harmony</td>
+                        <td valign="middle">12345</td>
+                        <td valign="middle">1</td>
+                        <td valign="middle">1000.00</td>
+                        <td valign="middle">0.00</td>
+                        <td valign="middle">1000.00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <table class="headerTable" cellpadding="0" cellspacing="0" width="50%" align="right" style="margin-top: 14px;">
+                    <tbody>
+                      <tr>
+                        <td>Total Amount</td>
+                        <td>:</td>
+                        <td style="text-align: right;">1000.00</td>
+                      </tr>
+                      <tr>
+                        <td>GST 3%</td>
+                        <td>:</td>
+                        <td style="text-align: right;">30.00</td>
+                      </tr>
+                      <tr>
+                        <td>SGST 0%</td>
+                        <td>:</td>
+                        <td style="text-align: right;">0.00</td>
+                      </tr>
+                      <tr>
+                        <td>IGST 0%</td>
+                        <td>:</td>
+                        <td style="text-align: right;">0.00</td>
+                      </tr>
+                      <tr>
+                        <td>UGST 0%</td>
+                        <td>:</td>
+                        <td style="text-align: right;">0.00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                    </td>
+              </tr>
+              <tr>
+                <td style="padding-top:10px;padding-bottom: 80px;">
+                  <table cellpadding="0" cellspacing="0" style="width: 53%!important;
+                  max-width: 100%!important;
+                  overflow: hidden!important;
+                  box-sizing: border-box;
+                  height: auto!important;
+                  margin-left: auto;
+                  margin-right: 0;
+                  border-top: 1px solid #B1ADAD;
+                  background: #F1F1F1;" align="right">
+                    <tbody>
+                      <tr>
+                        <td width="73%" valign="top" style="padding: 0px 14px;">
+                          <p style="font-family: 'Inter', sans-serif;font-size:12px;font-weight:normal;text-transform:none;margin-top:0;margin-bottom:0;padding:3px 0;color:#3a3d45;line-height:1.5">
+                            <strong>Total GST Amount : </strong>
+                          </p>
+                        </td>
+                        <td width="50%" valign="top">
+                          <p style="font-family: 'Inter', sans-serif;font-size:12px;font-weight:normal;text-transform:none;margin-top:0;margin-bottom:0;padding:3px 0px 0px 15px;color:#3a3d45;line-height:1.5"> 30.00 </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td width="73%" valign="top" style="padding: 0px 14px;">
+                          <p style="font-family: 'Inter', sans-serif;font-size:12px;font-weight:normal;text-transform:none;margin-top:0;margin-bottom:0;padding:3px 0;color:#3a3d45;line-height:1.5">
+                            <strong>Total Amount with Tax :</strong>
+                          </p>
+                        </td>
+                        <td width="50%" valign="top">
+                          <p style="font-family: 'Inter', sans-serif;font-size:12px;font-weight:600;text-transform:none;margin-top:0;margin-bottom:0;padding:3px 0px 0px 15px;color:#3a3d45;line-height:1.5"> 1030.00 </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="2" width="100%" valign="top" style="padding: 10px 14px;">
+                          <p style="font-family: 'Inter', sans-serif;font-size:12px;font-weight:normal;text-transform:none;margin-top:0;margin-bottom:0;padding:3px 0;color:#3a3d45;line-height:1.5">
+                            <strong>One thousand and thirty rupees only</strong>
+                          </p>
+                        </td>
+                        
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" valign="top">
+                  <table border="0" cellpadding="10" cellspacing="0" width="600" style="border-top:1px solid #d4c8c8;">
+                    <tbody>
+                      <tr>
+                        <td style="padding:20px 30px 20px 30px;width: 50%;">
+                          <p style="color: #76798B;font-family: 'Inter', sans-serif;font-size: 10px;font-style: normal;font-weight: 400;line-height: normal;margin: 0 0 4px 0;">RCM: No.</p>
+                          <h5 style="color: #444E59;font-family: 'Inter', sans-serif;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;margin: 0;">Payment References</h5>
+                          <ul style="color: #76798B;font-family: 'Inter', sans-serif;font-size: 10px;font-style: normal;font-weight: 400;line-height: normal;padding-left: 20px;">
+                            <li>Transaction id & Amount of Payment: ABC1234, Rs 1030.00</li>
+                            <li>Date & Time: Fri 12 June 2023, 3:00pm</li>
+                            <li>Payment Mode: Credit Card / Debit Card</li>
+                          </ul>
+                        </td>
+                        <td style="padding:20px 30px 20px 30px;width: 50%;">
+                          <p style="color: #76798B;font-family: 'Inter', sans-serif;font-size: 10px;font-style: normal;font-weight: 400;line-height: normal;">Certified that the particulars given above are tru and correct for Events entertainment pvt ltd.</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

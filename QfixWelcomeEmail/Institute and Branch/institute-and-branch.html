@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institute and Branch</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+      </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="Logo">
+                <figure>
+                    <img class="img-fluid" src="images/QfixbyPinelabs.svg" alt="">
+                </figure>
+            </a>
+        </div>
+    </header>
+<main>
+<section>
+    <div class="container">
+        <div class="WelcomeBox card">
+            <div class="row mx-0">
+                <div class="com-12 WelcomeTitle">
+                    <h4>Hello!</h4>
+                    <h1>Welcome to Eduqfix</h1>
+                </div>
+                <div class="col-12">
+                    <figure class="text-center py-4">
+                        <img class="img-fluid" src="images/Welcome.svg" alt="">
+                    </figure>
+                    <p class="infoPara">
+                        The first step to manage your fee collections through Qfix.Please upload your Fee data and Student data.
+                        If you get stuck or need help, please contact <a href="#">customer support.</a> 
+                    </p>
+                </div>
+                <div class="col-12">
+                    <form class="InstituteForm">
+                        <div class="form-group">
+                          <label for="InstituteName">Institute Name</label>
+                          <select class="form-control" id="InstituteName">
+                            <option>Sardar Patel Institute</option>
+                            <option>Sardar Patel Institute</option>
+                            <option>Sardar Patel Institute</option>
+                            <option>Sardar Patel Institute</option>
+                            <option>Sardar Patel Institute</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="BranchName">Branch Name</label>
+                            <select class="form-control" id="BranchName">
+                              <option>Pune</option>
+                              <option>Mumbai</option>
+                              <option>Delhi</option>
+                              <option>Pune</option>
+                              <option>Pune</option>
+                            </select>
+                        </div>
+                        <hr class="my-4" />
+                        <h3 class="mb-4 formHeading">Upload Files</h3>
+                        <div class="form-group row align-items-center mb-4">
+                            <label class="col-sm-2" for="">Fee Data:</label>
+                            <div class="col-sm-5 drop-zone__input">
+                                <input type="file" id="UploadFile" />
+                                <label for="UploadFile" class="d-flex mb-0">
+                                    <p class="mb-0">Drag & Drop</p>
+                                    <img class="img-fluid ml-4" alt="" src="images/upload.svg">
+                                </label>
+                            </div>
+                            <div class="col-sm-5">
+                                <p class="small mb-0"><strong>.sls</strong> Max file size <strong>50kb</strong> You can also upload by
+                                    <a href="#">Clicking here</a>
+                                </p>
+                                
+                            </div>
+                        </div>
+
+
+
+                        <div class="text-center py-4">
+                            <button type="submit" class="btn font-weight-bold text-clr">Cancel</button>
+                            <button type="submit" class="btn font-weight-bold btn-primary">Upload</button>
+                        </div>
+                        
+                      </form>
+
+
+                </div>
+            </div>
+            
+
+
+
+        </div>
+    </div>
+</section>
+
+</main>
+<footer>
+  <div class="container">
+    <div class="footerInfo">
+        <h5 class="mb-0">Have more questions?</h5>
+        <p>Write us on: <a href="mailto:customer.support@qfixinfo.com">customer.support@qfixinfo.com</a></p>
+    </div>  
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>  
+</body>
+</html>
